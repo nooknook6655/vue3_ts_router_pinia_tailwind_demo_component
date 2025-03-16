@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 <template>
     <header
-        class="text-gray-600 body-font bg-white sticky top-0">
+        class="text-white body-font bg-[#fd026e] sticky top-0 z-40">
         <div
             class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <nav
@@ -81,7 +81,7 @@ import { RouterLink } from 'vue-router'
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    class="w-10 h-10 text-[#fd026e] p-2 bg-white rounded-full"
                     viewBox="0 0 24 24">
                     <path
                         d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5">
@@ -92,10 +92,11 @@ import { RouterLink } from 'vue-router'
                     <font
                         style="vertical-align: inherit;">
                         <font
-                            style="vertical-align: inherit;">
+                            style="vertical-align: inherit;"
+                            class="text-white md:text-lg bold">
 
-                            Primrachat
-                            Job
+                            Primerachat
+
                         </font>
                     </font>
                 </span>
@@ -107,7 +108,8 @@ import { RouterLink } from 'vue-router'
                     <font
                         style="vertical-align: inherit;">
                         <font
-                            style="vertical-align: inherit;">
+                            style="vertical-align: inherit;"
+                            class="text-gray-600">
                             ปุ่ม</font>
                     </font>
                     <svg fill="none"
